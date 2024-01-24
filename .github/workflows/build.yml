@@ -6,6 +6,7 @@ on:
       - '*.md'
       - 'LICENSE*'
   pull_request:
+  workflow_dispatch:
 
 env:
   CARGO_BIN_NAME: retrotool
